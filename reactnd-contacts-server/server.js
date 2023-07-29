@@ -54,7 +54,7 @@ app.post("/contacts", bodyParser.json(), (req, res) => {
 
 app.listen(config.port, async () => {
   try {
-    console.log("Connection has been established successfully.");
+    console.log("Connection has been established successfully!");
     console.log("Server listening on port %s, Ctrl+C to stop", config.port);
   } catch (error) {
     console.error("Unable to establish the connection:", error);
