@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Front-End Install
           command: |
-            npm run frontend:install
+            npm update && npm run frontend:install
       - run:
           name: Back-End Install
           command: |
